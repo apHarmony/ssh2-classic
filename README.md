@@ -1,5 +1,7 @@
 # Description
 
+This is the classic 0.8.x version of SSH2, with security patches applied.
+
 SSH2 client and server modules written in pure JavaScript for [node.js](http://nodejs.org/).
 
 Development/testing is done against OpenSSH (7.6 currently).
