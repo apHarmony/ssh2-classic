@@ -1,5 +1,5 @@
 var Server = require('../lib/server');
-var utils = require('ssh2-streams').utils;
+var utils = require('ssh2-streams-classic').utils;
 
 var fs = require('fs');
 var path = require('path');

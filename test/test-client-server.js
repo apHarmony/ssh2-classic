@@ -1,8 +1,8 @@
 var Client = require('../lib/client');
 var Server = require('../lib/server');
-var OPEN_MODE = require('ssh2-streams').SFTPStream.OPEN_MODE;
-var STATUS_CODE = require('ssh2-streams').SFTPStream.STATUS_CODE;
-var utils = require('ssh2-streams').utils;
+var OPEN_MODE = require('ssh2-streams-classic').SFTPStream.OPEN_MODE;
+var STATUS_CODE = require('ssh2-streams-classic').SFTPStream.STATUS_CODE;
+var utils = require('ssh2-streams-classic').utils;
 
 var net = require('net');
 var fs = require('fs');
