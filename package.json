@@ -1,10 +1,10 @@
 { "name": "ssh2-classic",
-  "version": "0.8.15",
+  "version": "0.8.16",
   "description": "SSH2 client and server modules written in pure JavaScript for node.js",
   "main": "./lib/client",
   "engines": { "node": ">=5.2.0" },
   "dependencies": {
-    "ssh2-streams-classic": "0.4.12"
+    "ssh2-streams-classic": "0.4.14"
   },
   "scripts": {
     "test": "node test/test.js"
